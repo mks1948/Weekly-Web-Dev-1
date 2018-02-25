@@ -1,0 +1,337 @@
+
+body
+{
+
+	margin:0px;
+	
+	background: url("background.png") center center no-repeat;
+	background-size: cover;
+	font-family:'Titillium Web',sans-serif;
+	
+}
+.table
+{
+	width:100%;
+	height: 1230px;
+	margin: auto;
+	position:relative;
+	
+}
+.logo
+{	
+ 	display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+    margin: 50px 0 10px 0;
+}
+.cointainer
+{	
+	
+	width:1000px;
+	text-align:center;
+	margin: auto;
+}
+.Register_menu
+{
+	text-align: center;
+	padding-left: 0 auto;
+}
+.form
+{	
+	border-radius: 4px;
+	width:auto;
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+	background:rgba(253,244,238,1);
+	color:#bfc1ba;
+	
+}
+.register_submit
+{	
+	margin-right: auto;
+
+}
+
+.border
+{	
+	width: 80%;
+	margin: 0 auto ;
+	border-radius: 4px;
+	border:	15px solid rgba(0,0,0,0.3);
+	border:auto;
+}
+.submit_menu
+{
+	margin-right: auto;
+}
+.col-row
+{	
+	width:50%;
+	float:left;
+}
+.textmessage 
+{	
+	font-size: 1.2rem;
+	font-family: 'Titillium Web',sans-serif;
+	padding: 0px;
+	height:200px;
+	width: 100%;
+	resize: none;
+    margin: 0 auto;
+    border:  1px solid #c6c6c6;
+   	border-radius: 4px;
+    background-color:  #f8f8f8;
+	
+}
+
+/*			CHECKBOX		*/
+
+.checkbox-wrapper label 
+{
+	display: flex;
+	align-items: center;
+	color: #c6c6c6;
+}
+input[type=checkbox] 
+{
+	display: none;
+}
+
+.checkbox_span 
+{	margin:10px 10px 10px 0px;
+	display:block;
+	width: 25px;
+	height: 25px;
+	background-color: #fff;
+	border: 1px solid #c6c6c6;
+	border-radius: 5px;
+	position: relative;
+
+}
+.checkbox_span::after {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background-color: #93d02b;
+	display: none;
+	border-radius: 3px;
+	top: 5px;
+	left: 5px;
+
+}
+input[type=checkbox]:checked + .checkbox_span::after 
+{
+	display: block;
+}
+.checkbox-wrapper
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+   /*                     PRAWA STRONA                                   */
+.left-row
+{	
+	width:50%;
+	display:flex;
+	flex-direction:column;
+}
+.Sign
+{
+	max-width: 70%;
+}
+.formsign
+{
+	margin:auto;
+	width:60%;
+	
+	
+}
+.abc
+{
+	position: relative;
+	top:10px;
+}
+.Signbutton
+{
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.formrecover
+{
+	margin:auto;
+	width:60%;
+}
+
+.buttonRecover
+{
+	display: flex;
+  	flex-direction: row;
+  	justify-content: space-around
+  	flex-basis:10px;
+  ;
+}
+.formsubscribe
+{
+	margin:auto;	
+}
+.buttonRS
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+h1,h2
+{	
+	font-size:2rem;
+	text-align:center;
+	color:white;
+	text-shadow: 1px 1px 1px #dadfe8;
+}
+.footer
+
+{	position:relative;
+	top:50px;
+	margin:auto;
+	width:80%;
+	opacity : .3;
+}
+
+
+/* 		INNE 		*/
+
+input {
+
+    font-family: 'Titillium Web';
+    color:#bfc1ba;
+
+    padding: 10px 10px;
+    margin: 8px 0;
+    border:  1px solid #c6c6c6;
+    border-radius: 4px;
+    background-color:  #f8f8f8;
+	
+}
+
+input[type=text]
+ {
+    background-image: url('username.png');
+    background-position: 16px 4px; 
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    border-left: 1px solid #ccc;
+}
+input[type=password] 
+{
+    background-image: url('password.png');
+    background-position: 16px 4px; 
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    border-left: 1px solid #ccc;
+}
+input[name="email"]
+{
+	background-image: url('email.png');
+    background-position: 16px 4px; 
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    border-left: 1px solid #ccc;
+}
+input[name="number"]
+{
+	background-image: url('phone.png');
+    background-position: 16px 4px; 
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    border-left: 1px solid #ccc;
+}
+input[name="location"]
+{
+	background-image: url('location.png');
+    background-position: 16px 4px; 
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    border-left: 1px solid #ccc;
+}
+
+
+ input.Subscribe_1,input.Subscribe_2,input.Recover_1,input.Recover_2,input.sif_send
+ {
+ 	width: 150px;
+ }
+
+input[type=submit]
+{
+	border-color: #99D633;
+	background-color: #99D633;
+	color:white;
+	font-size: 1.125em;
+}
+input[type=submit]:hover
+{
+	opacity:0.76;
+}
+input.Recover_2
+{
+	opacity: .6;
+}
+input.Subscribe_2
+{
+	background-color:#ff6666;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px){
+     .img
+     {
+     	width: 80%;
+     	margin:0 auto;
+     }
+    .cointainer
+    {
+    	width: 100%;
+    	 align-self: center;
+
+    }
+    .table{
+    	display:flex;
+    	flex-direction: column;
+    	width: auto;
+    	height: 2600px;
+    
+    }
+    .col-row{
+        width: 100%;
+         align-self: center;
+    }
+    .form{
+       
+        width:auto;
+    }
+    .left-row
+    { 
+    	width:100%;
+    	align-self: center;
+    }
+    .buttonRS
+    {
+    	display: flex;
+    	flex-direction: column;
+    	align-items:center;
+
+    }
+
+    .checkbox-wrapper
+    {
+    	display: flex;
+    	flex-direction: column;
+    	align-self:center;
+    }}
+ 

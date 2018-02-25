@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+		<meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<title>Weekly WebDev Challenge #1</title>
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+		<link href="style.css" type="text/css"
+			rel="stylesheet" />
+		
+		
+		</head>
+		<body>
+		<div class="cointainer">
+				<div class="logo">
+					<img src="TOP_LOGO.png" class="img" alt="Logo"> 
+				</div>
+			<div class="table">	
+				<div class="col-row">
+					<div class="main">
+					<h2 class= "title" > Register Form </h2>
+						<div class="Register_menu">
+						
+							<div class="border">
+								<form class="form" name="Register_form">
+								<input type="text" name="username" placeholder="Username">
+								<input type="password" name="password" placeholder="Password">
+								<input type="password" name="confirm_password" placeholder="Confirm Password">
+								<input type="text" class="email" name="email" placeholder="Email">
+								<input name="location" type="text" placeholder="Localization" list="city">
+							
+								<datalist id="city">
+									<option value="Warsaw">
+									<option value="Lublin">
+									<option value="Wroclaw">
+									<option value="Krakow">
+									<option value="Gdansk">
+								</datalist>
+								
+								<div class="checkbox-wrapper">
+								<label for="checkbox-1">
+								<input type="checkbox" id="checkbox-1">
+								<span class="checkbox_span"></span>
+										I have read and accept the terms of use.
+								</label>
+								</div>
+
+								<input type="submit" class="rf_register" value="Sign up">
+								</form>
+							
+								
+						</div>
+						</div>		
+				</div>
+						<div class="main">
+					<h2 class="title2" > Send Email </h2>
+						<div class="Send_menu">
+
+							<div class="border">
+								<form class="form" name="Send_Email">
+								<input type="text" name="name" placeholder="Your name">
+								<input type="text" name="email" placeholder="Your email">
+
+								
+								<textarea placeholder="Type your message..." onblur="this.placeholder='Type your message...' " onfocus="this.placeholder=' '" class="textmessage" required=""></textarea>
+								<div class="checkbox-wrapper">
+								<label for="checkbox-2">
+								<input type="checkbox" id="checkbox-2" required>
+								<span class="checkbox_span"></span>
+										Send a copy to my Email.
+								</label>
+								</div>
+
+								<input type="submit" class="se_send" value="Send Email">
+								</form>
+							</div>
+						</div>
+						</div>
+				</div>
+														
+				
+				<div class="left-row">
+					<div class="main">
+										<h2> Sign in Form </h2>
+						<div class="border">
+							<form class="form" name="Sign" >
+							<input type="text" name="username" placeholder="Username">
+							<input type="password" name="password" placeholder="Password">
+							
+							<div class="checkbox-wrapper">
+								<label for="checkbox-3">
+								<input type="checkbox" id="checkbox-3" required>
+								<span class="checkbox_span"></span>
+										Send a copy to my Email.
+								</label>
+							
+								<div><input type="submit" class="sif_send" value="Sign in"></div>
+							</div>
+							</form>
+						</div>
+					</div>
+					<div class="main">
+						<h2 class="title4"> Recover Form </h2>
+						<div class="border">
+							<form class="form" name="recover">
+							<input type="text" name="email" placeholder="Enter your Email">
+							<input type="number" name="number" placeholder="Enter your phone number">
+							
+							<div class="buttonRS">
+								<input type="submit" class="Recover_1" value="Send"/>
+								<div><input type="submit" class="Recover_2" value="Done"/></div>
+
+							</div>
+							</form>
+					</div>	
+					</div>
+					<div class="main">
+					<h2 class="title5"> Subscribe Form </h2>
+						<div class="border">
+							<form class="form" name="subscribe">
+							<input type="text" name="email" placeholder="Enter your email">
+								
+							<div class="buttonRS">
+								<input type="submit" class="Subscribe_1" value="Subscribe" />
+								<div><input type="submit" class="Subscribe_2"value="No,Thanks" />
+								</div>
+							</div>	
+							</form>
+						</div>						
+					</div>
+					<div class="footer">
+							
+								<img src="Logo.png"  class="img" alt="Logo"> 
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+		
+		</body>
+		<html>
